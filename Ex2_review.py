@@ -27,6 +27,12 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+# num = int(input("Enter a number:\n"))
+# if num % 2 == 0:
+#     print("The number is even!")
+# else:
+#     print("The number is odd!")
+
 
 # -------------------------------------------
 # Submitting Your Work
@@ -59,6 +65,15 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+# score = int(input("Enter your score:\n"))
+# if score >= 70:
+#     print("Excellent!")
+# elif score >= 50 and score <=69:
+#     print("Good effort!") 
+# elif score <50 and score >= 1:
+#     print("Needs improvement.")
+# else:
+#     print("Please enter your score")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -96,6 +111,11 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+# num1 = int(input("Enter a number:\n"))
+# while num1 > 1:
+#     num1 -= 1
+#     print(num1)
+# print("Blast off!")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -130,6 +150,11 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
+# num2 = int(input("Enter a number:\n"))
+
+# for i in range(1, 11):
+#     print(f"{num2} * {i} = {num2 * i}")
+# print("gap")
 
 # -------------------------------------------
 # Submitting Your Work
@@ -165,6 +190,20 @@ print("-------------------------------------------\n"
 # Correct! Well done.
 #
 # Write your code below:
+
+answer = 8
+
+print("Try and guess the number i'm thinking of!\n")
+guess = int(input("Enter a guess!:\n"))
+
+while guess != answer:
+    if guess < answer:
+        guess = int(input("Try higher...\n"))
+    elif guess > answer:
+        guess = int(input("A little lower...\n"))
+
+if guess == answer:
+    print("Thats it!")    
 
 
 # -------------------------------------------
@@ -202,7 +241,8 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 
-
+for i in range(1, 6):
+    
 
 
 # Extension 2:
